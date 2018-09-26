@@ -1145,7 +1145,8 @@ PRODUCT_PACKAGES += \
     WfdCommon \
     vendor.qti.gnss@3.0-service \
     libthermalclient \
-    FingerprintExtensionService
+    FingerprintExtensionService \
+    chargeonlymode
 
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
 PRODUCT_COPY_FILES += \
